@@ -36,3 +36,114 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+  margin: 30px 100px;
+}
+
+.header{
+  margin-bottom: 40px;
+}
+
+.events{
+  font-size: 40px;
+}
+
+.event{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* max-width: 300px; */
+  border: 2px solid black;
+  padding: 20px 20px;
+}
+
+.events_item_list{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+
+.title{
+  font-size: 30px;
+}
+
+.date_organizer{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.btn{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_style{
+  background-color: white;
+  color:#1ea2c7;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  transition: .2s;
+  text-decoration: none;
+}
+
+.btn_style:hover{
+  color:#02c8ff;
+}
+
+.page_navigation{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.btn_nav{
+  color: blue;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  transition: .2s;
+}
+
+.btn_nav:hover{
+  color: rgb(108, 108, 243)
+}
+
+.ant-pagination{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.ant-form{
+  margin: 300px auto;
+}
+
+.ant-form-item-control-input-content{
+  display: flex;
+  gap: 50px;
+}
+
+.btn_back{
+  margin-top: 30px;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  background-color: blue;
+  border-radius: 10px;
+  transition: .2s;
+}
+
+.btn_back:hover{
+  background-color: rgb(0, 81, 255); 
+}
+
+.title_participant{
+  margin-bottom: 20px;
+}
